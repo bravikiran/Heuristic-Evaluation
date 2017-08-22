@@ -1,0 +1,300 @@
+.infobox{
+    background-color: #DCDCA0;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+    font-variant: normal;
+}
+
+.succesClass{
+    background-color: #B0B0B0;
+    font-size: 18px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.succesClass label{
+    margin-right: 10px;
+}
+
+.succesClass textarea{
+    background-color: white;
+}
+
+.toprightClass{
+    top: 10px;
+    right: 16px;
+}
+
+.centerClass{
+    text-align: center;
+    top: 20px;
+}
+
+#checkboxes, #checkboxese, #checkboxesd {
+    display: none;
+    height: 100px;
+    border:2px solid gray;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#checkboxes label, #checkboxesd label, #checkboxese label {
+    display: block;
+}
+
+.thumb-image{
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.dropdown {
+  
+}
+
+a {
+ 
+}
+
+.dropdown dd,
+.dropdown dt {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown ul {
+  widows: inherit;
+  margin: -1px 0 0 0;
+}
+
+.dropdown dd {
+  position: relative;
+}
+
+.dropdown a,
+.dropdown a:visited {
+  color: black;
+}
+
+.dropdown dt a {
+  color: black;
+}
+
+.dropdown dt a span,
+.multiSel span {
+  cursor: pointer;
+  display: inline-block;
+  width: inherit;
+}
+
+.dropdown dd ul {
+  color: black;
+  background-color: gray;
+  border: 0;
+  display: none;
+  left: 0px;
+  padding: 2px 15px 2px 5px;
+  position: absolute;
+  width: inherit;
+  list-style: none;
+  height: 150px;
+  overflow: auto;
+}
+
+.dropdown span.value {
+  display: none;
+}
+
+.dropdown dd ul li a {
+  padding: 5px;
+  display: block;
+}
+
+.dropdown dd ul li a:hover {
+  
+}
+
+.checked {
+  color: #ff0000;
+}
+
+.gap{
+  margin-top: 20px;
+}
+
+.hideevaluators{
+  display: none;
+}
+
+.setheightwidth{
+  height: 150px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 0;
+  padding-left: 10px;
+  overflow: scroll;
+}
+
+.caption{
+  margin-bottom: 10px;
+  border-bottom-style: groove; 
+  text-align:center;
+}
+
+.evaluationlogsheuristicrules{
+  color: #fff;
+  padding-left:5px;
+  background-color:#014;
+  margin-top:-16px;  
+  height:100%;
+  overflow: auto;
+}
+
+.evaluationlogsheuristicrules label{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.imgthumble{
+  height:100px;
+  width:100px;  
+}
+
+.hideregisterdiv{
+  display: none;
+}
+
+.logo{
+  height: 55px; 
+  width: auto;
+}
+.min-img-size{
+  width: 150px;
+}
+
+.projectinfo{
+  text-align: center;
+  background-color: lightblue; 
+  color: black;
+  font-size: 15px;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.footer{
+  height: auto;
+  position: relative;
+  clear:both;
+  margin-top: 15px;
+  padding-top:20px;
+}
+
+ #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}     
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background: #ff6d92 radial-gradient(circle at center,#f5b200 0,#fc636b 30%,#ff6d92 70%);}
+  #section42 {color: #fff; background-color: #009688;}
+
+  .verticalline{
+    border-right: thick solid black;
+    padding: 15px;
+    margin-right: 15px;
+    position: relative;
+  }
+
+
+  /* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
